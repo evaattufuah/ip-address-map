@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  flex-direction: column;
+  height: 100vh;
+  font-family: Rubik, sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+}
+
+.ip-app {
+  background-image: url("background.da6a7e8a.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 30rem;
+  padding-top: 3.3rem;
+  display: flex;
+}
+
+.ip-app__title {
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 2.9rem;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.ip-app__form {
+  width: 32.7rem;
+  height: 5.8rem;
+  display: flex;
+}
+
+.ip-app__form-input {
+  border: none;
+  border-radius: 15px 0 0 15px;
+  outline: none;
+  width: 26.9rem;
+}
+
+.ip-app__form-submit {
+  background: #000;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  width: 5.8rem;
+  height: 5.8rem;
+  display: flex;
+}
+
+.ip-app__info {
+  color: #2c2c2c;
+  z-index: 5;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.4rem;
+  margin-top: 2.4rem;
+  padding: 2.6rem 2.4rem;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+}
+
+.ip-app__info-group-title {
+  text-align: center;
+  color: #2c2c2c;
+  font-size: 10px;
+}
+
+.ip-app__map {
+  z-index: 1;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=index.4a508c1d.css.map */

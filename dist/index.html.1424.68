@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.4a508c1d.css">
+    <title>IP Address Tracker</title>
+</head>
+<body>
+   <div class="ip-app">
+    <h1 class="ip-app__title">IP Address Tracker</h1>
+
+    <form id="ip-address-form" class="ip-app__form">
+        <input type="text" class="ip-address__input">
+        <button type="submit">
+            <svg width="11" height="16" viewbox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L8 8L2 14" stroke="white" stroke-width="3"></path>
+            </svg>
+        </button>
+    </form>
+
+    <div class="ip-app__info">
+        <div class="ip-app__info-group">
+            <p class="ip-app__info-group-title">IP Address</p>
+            <h1 class="ip-app__info-group-value">192.212.174.101</h1>
+        </div>
+
+        <div class="ip-app__info-group">
+            <p class="ip-app__info-group-title">
+                Location
+            </p>
+            <h1 class="ip-app__info-group-value">
+                Brooklyn,
+                NY 10001
+            </h1>
+        </div>
+
+        <div class="ip-app__info-group">
+            <p class="ip-app__info-group-title">
+               Timezone
+            </p>
+            <h1 class="ip-app__info-group-value">
+                UTC -05:00
+            </h1>
+        </div>
+
+
+        <div class="ip-app__info-group">
+            <p class="ip-app__info-group-title">
+                ISP
+            </p>
+            <h1 class="ip-app__info-group-value">
+                SpaceX
+                Starlink
+            </h1>
+        </div>
+    </div>
+   </div>
+    
+
+<script src="/ip-address-tracker.59712999.js"></script></body>
+</html>
